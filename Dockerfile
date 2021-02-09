@@ -1,4 +1,4 @@
-FROM quay.io/ukhomeofficedigital/python-alpine
+FROM quay.io/ukhomeofficedigital/python-alpine:3.8-alpine3.12
 RUN apk upgrade --no-cache
 RUN apk add --no-cache bash openssl gettext
 
